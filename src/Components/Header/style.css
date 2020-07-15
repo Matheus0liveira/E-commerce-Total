@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  background: rgb(95, 231, 133);
+  background: linear-gradient(353deg, rgba(95, 231, 133, 1) 0%, rgba(48, 181, 85, 1) 100%);
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.473),
+    0px 1px 10px 5px #ccc;
+}
+
+
+.shopping {
+  cursor: pointer;
+}

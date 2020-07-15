@@ -1,0 +1,98 @@
+.card {
+  background: #fff;
+  margin: 20px 10px;
+  width: 33.33%;
+  border-radius: 10px;
+  transition: .5s;
+  box-shadow: 2px 3px 8px 0px #2121218c,
+    2px 3px 8px 0px #21212125;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.image img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.image .count {
+  position: absolute;
+  margin: 5px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background: #BDF6F3;
+}
+
+.image .count p {
+  text-align: center;
+}
+
+.title-description {
+  margin: 20px;
+}
+
+.title-description h2 {
+
+  font-weight: normal;
+}
+
+.title-description p {
+  margin: 10px 0;
+  font-weight: lighter;
+}
+
+.buttons-value {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.buttons-value h5 {
+
+  margin-left: 20px;
+
+}
+
+
+.buttons {
+  margin-right: 20px;
+}
+
+.buttons button {
+  width: 30px;
+  height: 30px;
+  margin: 5px 5px;
+  border-radius: 30%;
+  font-size: 16px;
+  font-weight: bold;
+  border: 0;
+  color: #fff;
+  background: #56C65B;
+  box-shadow: inset 0 1px 5px 1px rgba(0, 0, 0, 0.219), ;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  opacity: 0.8;
+}
+
+.buttons button:nth-last-child(2n) {
+  background: #d14d44;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+
+  .card:hover {
+    transform: scale(1);
+  }
+}

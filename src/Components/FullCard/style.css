@@ -1,0 +1,93 @@
+.display-flex {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.cards {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 70%;
+}
+
+
+
+.total-price {
+  position: fixed;
+  right: 0px;
+  width: 30%;
+  margin: 20px auto;
+}
+
+.price h1 {
+  font-size: 24px;
+}
+
+.price h1 span {
+  font-weight: lighter;
+}
+
+.buttons-cart {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.buttons-cart button {
+  letter-spacing: 1px;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1.5px solid #C65D56;
+  background: none;
+  font-weight: lighter;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.buttons-cart button:hover {
+
+  background: #C65D56;
+  color: #FFF;
+}
+
+.buttons-cart button:nth-last-child(2n) {
+  background: #4FD655;
+  color: #FFF;
+  letter-spacing: 1px;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  font-weight: bold;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.20),
+    0 4px 4px rgba(0, 0, 0, 0.20);
+  transition: .5s;
+  cursor: pointer;
+}
+
+.buttons-cart button:nth-last-child(2n):hover {
+  background: #4fa4d6;
+}
+
+@media screen and (max-width: 600px) {
+  .display-flex {
+
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .total-price {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px auto;
+  }
+}
