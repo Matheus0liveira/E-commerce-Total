@@ -2,6 +2,10 @@
 
 > ##### Projeto desenvolvido usando React (create-react-app).
 
+### Sobre o projeto
+
+##### Projeto que simula um carrinho de um e-commerce, com intenção de colocar em prática Hooks e em especial Context API.
+
 ## Instalação:
 
 ```JavaScript
